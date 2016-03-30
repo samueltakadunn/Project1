@@ -7,14 +7,13 @@ gem 'coffee-rails'
 gem 'jquery-rails'         
 gem 'turbolinks'          
 gem 'jbuilder'            
-gem 'sdoc', group: doc            
+gem 'sdoc', group: :doc            
 
 group :development, :test do
   gem 'sqlite3'     
   gem 'byebug'    
   gem 'web-console', '2.0.0.beta3'
   gem 'spring' 
-  
 end
 
 group :production do
